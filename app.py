@@ -1,7 +1,8 @@
 import streamlit as st
 import plotly.graph_objects as go
 
-# Fungsi untuk menempatkan barang dalam kontainer def place_items(container_dim, items):
+# Fungsi untuk menempatkan barang dalam kontainer
+def place_items(container_dim, items):
     container_x, container_y, container_z = container_dim
     placements = []
     current_x = 0
